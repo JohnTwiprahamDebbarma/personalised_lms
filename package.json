@@ -1,12 +1,12 @@
 {
-  "homepage": "https://JohnTwiprahamDebbarma.github.io/personalised_lms",
+  "homepage": "https://JohnTwiprahamDebbarma/github.io/personalised_lms",
   "name": "mylms",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -15,6 +15,7 @@
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.6",
     "framer-motion": "^11.2.13",
+    "install": "^0.13.0",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
     "react-axios": "^2.0.6",
