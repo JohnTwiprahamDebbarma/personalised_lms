@@ -40,7 +40,7 @@ function Home() {
           <h1 className="text-3xl font-semibold">
             Hi! Welcome to your
           </h1>
-          <span className="text-5xl text-indigo-700 font-bold">Personalised Learning Management System</span>
+          <span className="text-5xl text-indigo-700 font-bold">Own Personalised Learning Management System</span>
           <p className="text-xl text-black font-semibold">All your tasks at one place.</p>
           <div className="space-x-6">
             <Link to="/courses">
